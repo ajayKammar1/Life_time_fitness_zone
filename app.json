@@ -28,11 +28,19 @@
       [
         "expo-splash-screen",
         {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 76
+          "backgroundColor": "#0B0B0D",
+          "image": "./assets/images/logo.png",
+          "imageWidth": 240
         }
-      ]
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#F5B700"
+        }
+      ],
+      "expo-sqlite",
+      "expo-sharing"
     ],
     "experiments": {
       "typedRoutes": true,
